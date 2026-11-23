@@ -1,0 +1,7 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {"name":"Preview titles","type":"debugpy","request":"launch","program":"${workspaceFolder}/uploader.py","args":["preview"],"console":"integratedTerminal"},
+    {"name":"Run uploader","type":"debugpy","request":"launch","program":"${workspaceFolder}/uploader.py","args":["upload"],"console":"integratedTerminal"}
+  ]
+}
